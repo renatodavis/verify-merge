@@ -1,4 +1,4 @@
-PR,Autor,Titulo,Release,Producao,Status
-1542,Release Guardian,Feature: calculo de ferias,Sim,Sim,Em producao
-1548,Release Guardian,Feature: decimo terceiro,Sim,Nao,Pendente
-1550,Release Guardian,Feature: fechamento mensal,Sim,Nao,Pendente
+PR,Autor,Titulo,Commit,Release,Producao,Status
+1,Renato Davis,Feature: calculo de ferias,9f58a0cb3859,Sim,Sim,Em producao
+2,Renato Davis,Feature: decimo terceiro,4ec22f672e20,Sim,Nao,Pendente
+3,Renato Davis,Feature: fechamento mensal,b05e94fcab32,Sim,Nao,Pendente

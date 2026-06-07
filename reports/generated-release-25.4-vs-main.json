@@ -2,34 +2,39 @@
   "release": "release/25.4",
   "production": "main",
   "base": "9c1777d",
-  "scenario": "PRs reais mergeados em release, com apenas parte promovida para producao.",
+  "range": "9c1777d..release/25.4",
+  "repository": "renatodavis/verify-merge",
+  "generatedAt": "2026-06-07T20:14:52.025Z",
   "pullRequests": [
     {
       "pr": "1",
-      "author": "Renato Davis",
       "title": "Feature: calculo de ferias",
-      "commit": "9f58a0cb3859",
+      "author": "Renato Davis",
       "release": true,
       "production": true,
-      "status": "Em producao"
+      "commit": "9f58a0cb3859",
+      "status": "Em producao",
+      "url": ""
     },
     {
       "pr": "2",
-      "author": "Renato Davis",
       "title": "Feature: decimo terceiro",
-      "commit": "4ec22f672e20",
+      "author": "Renato Davis",
       "release": true,
       "production": false,
-      "status": "Pendente"
+      "commit": "4ec22f672e20",
+      "status": "Pendente",
+      "url": ""
     },
     {
       "pr": "3",
-      "author": "Renato Davis",
       "title": "Feature: fechamento mensal",
-      "commit": "b05e94fcab32",
+      "author": "Renato Davis",
       "release": true,
       "production": false,
-      "status": "Pendente"
+      "commit": "b05e94fcab32",
+      "status": "Pendente",
+      "url": ""
     }
   ]
 }
