@@ -1,0 +1,31 @@
+{
+  "release": "release/25.4",
+  "production": "main",
+  "scenario": "PRs reais mergeados em release, com apenas parte promovida para producao.",
+  "pullRequests": [
+    {
+      "pr": "1542",
+      "author": "Release Guardian",
+      "title": "Feature: calculo de ferias",
+      "release": true,
+      "production": true,
+      "status": "Em producao"
+    },
+    {
+      "pr": "1548",
+      "author": "Release Guardian",
+      "title": "Feature: decimo terceiro",
+      "release": true,
+      "production": false,
+      "status": "Pendente"
+    },
+    {
+      "pr": "1550",
+      "author": "Release Guardian",
+      "title": "Feature: fechamento mensal",
+      "release": true,
+      "production": false,
+      "status": "Pendente"
+    }
+  ]
+}
